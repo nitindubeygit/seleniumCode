@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 232.685 sec <<< FAILURE! - in TestSuite
+loginDDT(com.vTiger.testCases.TestCase_002_DataDriven)  Time elapsed: 11.886 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.vTiger.testCases.TestCase_002_DataDriven.loginDDT(TestCase_002_DataDriven.java:27)
+
+loginDDT(com.vTiger.testCases.TestCase_002_DataDriven)  Time elapsed: 11.98 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.vTiger.testCases.TestCase_002_DataDriven.loginDDT(TestCase_002_DataDriven.java:27)
+
+createCampaign(com.vTiger.testCases.TC_001LoginNew)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\nitin.dubey\Desktop\vTiger\vTigerNew\src\test\java\com\vTiger\testData\LoginData.xlsx (The system cannot find the path specified)
+	at com.vTiger.testCases.TC_001LoginNew.createCampaign(TC_001LoginNew.java:47)
+

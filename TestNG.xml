@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="vTiger" verbose="1" parallel="false">
+
+
+	<listeners>
+		<listener class-name="com.vTiger.utilities.Reporting" />
+	</listeners>
+
+	<parameter name="brName" value="chrome" />
+	<test name="vTigerTest">
+
+		<classes>
+		 <class name="com.vTiger.testCases.TestCase_001" />
+		<class name="com.vTiger.testCases.TestCase_002_DataDriven" />
+				<class name="com.vTiger.testCases.TC_001LoginNew" />
+			<class name="com.vTiger.testCases.TestCase_003_CreateCampaign" />
+		</classes>
+		
+		
+	</test>
+</suite>

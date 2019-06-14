@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">vTiger</th></tr>
+<tr><td><a href="#t0">vTigerTest</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">3</td><td class="num">230,351</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">vTiger</th></tr></tbody><tbody id="t0"><tr><th colspan="4">vTigerTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.vTiger.testCases.TC_001LoginNew</td><td><a href="#m0">createCampaign</a></td><td rowspan="1">1558354999548</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="2">com.vTiger.testCases.TestCase_002_DataDriven</td><td><a href="#m1">loginDDT</a></td><td rowspan="2">1558354959121</td><td rowspan="2">11819</td></tr><tr class="failedodd"><td><a href="#m2">loginDDT</a></td></tr><tr><th colspan="4">vTigerTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.vTiger.testCases.TC_001LoginNew</td><td><a href="#m3">testMethod2</a></td><td rowspan="1">1558355006289</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">com.vTiger.testCases.TestCase_001</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1558354922491</td><td rowspan="1">18165</td></tr><tr class="passedeven"><td rowspan="2">com.vTiger.testCases.TestCase_002_DataDriven</td><td><a href="#m5">loginDDT</a></td><td rowspan="2">1558354971005</td><td rowspan="2">7471</td></tr><tr class="passedeven"><td><a href="#m6">loginDDT</a></td></tr><tr class="passedodd"><td rowspan="4">com.vTiger.testCases.TestCase_003_CreateCampaign</td><td><a href="#m7">createCampaignDDT</a></td><td rowspan="4">1558355123806</td><td rowspan="4">12509</td></tr><tr class="passedodd"><td><a href="#m8">createCampaignDDT</a></td></tr><tr class="passedodd"><td><a href="#m9">createCampaignDDT</a></td></tr><tr class="passedodd"><td><a href="#m10">createCampaignDDT</a></td></tr></tbody>
+</table>
+<h2>vTigerTest</h2><h3 id="m0">com.vTiger.testCases.TC_001LoginNew#createCampaign</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: C:\Users\nitin.dubey\Desktop\vTiger\vTigerNew\src\test\java\com\vTiger\testData\LoginData.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.vTiger.utilities.ExcelReader.getWorkbook(ExcelReader.java:48)
+	at com.vTiger.utilities.ExcelReader.getTestCaseData(ExcelReader.java:61)
+	at com.vTiger.testCases.TC_001LoginNew.createCampaign(TC_001LoginNew.java:47)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.vTiger.testCases.TestCase_002_DataDriven#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>234</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.vTiger.testCases.TestCase_002_DataDriven.loginDDT(TestCase_002_DataDriven.java:27)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.vTiger.testCases.TestCase_002_DataDriven#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admni</td><td>23423425</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.vTiger.testCases.TestCase_002_DataDriven.loginDDT(TestCase_002_DataDriven.java:27)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.vTiger.testCases.TC_001LoginNew#testMethod2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.vTiger.testCases.TestCase_001#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.vTiger.testCases.TestCase_002_DataDriven#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.vTiger.testCases.TestCase_002_DataDriven#loginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.vTiger.testCases.TestCase_003_CreateCampaign#createCampaignDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>camp3</td><td>2019-05-27</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.vTiger.testCases.TestCase_003_CreateCampaign#createCampaignDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>abc</td><td>2019-05-24</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.vTiger.testCases.TestCase_003_CreateCampaign#createCampaignDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>bcd</td><td>2019-05-25</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.vTiger.testCases.TestCase_003_CreateCampaign#createCampaignDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>camp2</td><td>2019-05-26</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

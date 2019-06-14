@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [vTiger]">
+  <parameter name="brName" value="chrome"/>
+  <listeners>
+    <listener class-name="com.vTiger.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="vTigerTest(failed)">
+    <classes>
+      <class name="com.vTiger.testCases.TestCase_002_DataDriven">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="1 3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.vTiger.testCases.TestCase_002_DataDriven -->
+    </classes>
+  </test> <!-- vTigerTest(failed) -->
+</suite> <!-- Failed suite [vTiger] -->

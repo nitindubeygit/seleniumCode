@@ -1,0 +1,13 @@
+com\vTiger\testCases\TestCase_001.class
+com\vTiger\utilities\XLUtils.class
+com\vTiger\pageObjects\CampaignsNew.class
+com\vTiger\testCases\TestCase_003_CreateCampaign.class
+com\vTiger\pageObjects\Campaigns.class
+com\vTiger\utilities\ExcelReader.class
+com\vTiger\pageObjects\LoginPage.class
+com\vTiger\testCases\TestCase_002_DataDriven.class
+com\vTiger\utilities\Reporting.class
+com\vTiger\testCases\TC_001LoginNew.class
+com\vTiger\utilities\ReadConfig.class
+com\vTiger\pageObjects\LoginPageNew.class
+com\vTiger\testCases\BaseClass.class
